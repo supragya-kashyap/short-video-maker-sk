@@ -1,0 +1,49 @@
+{
+  "template": "default",
+  "scenes": [
+    {
+      "id": "scene1",
+      "elements": [
+        {
+          "type": "video",
+          "src": "assets/clips/clip_from_finished.mp4",
+          "start": 0,
+          "end": 8
+        },
+        {
+          "type": "caption",
+          "text": "Intro line",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "type": "caption",
+          "text": "Second line",
+          "start": 3,
+          "end": 6
+        }
+      ]
+    },
+    {
+      "id": "scene2",
+      "elements": [
+        {
+          "type": "image",
+          "src": "assets/images/thumb.jpg",
+          "duration": 3
+        }
+      ]
+    }
+  ],
+  "config": {
+    "resolution": "1920x1080",
+    "fps": 30,
+    "audio": {
+      "track1": "assets/audio/voice.mp3"
+    }
+  },
+  "output": {
+    "folder": "finished-videos",
+    "filename": "job_auto_output_fixed.mp4"
+  }
+}

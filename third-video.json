@@ -1,0 +1,19 @@
+{
+  "scenes": [
+    {
+      "text": "Success is not final, failure is not fatal. It is the courage to continue that counts.",
+      "searchTerms": ["courage", "determination", "success"]
+    },
+    {
+      "text": "Every champion was once a beginner who refused to give up.",
+      "searchTerms": ["motivation", "sports", "achievement"]
+    }
+  ],
+  "config": {
+    "paddingBack": 1500,
+    "music": "hopeful",
+    "captionPosition": "bottom",
+    "musicVolume": "medium",
+    "voice": "af_heart"
+  }
+}

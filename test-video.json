@@ -1,0 +1,19 @@
+{
+  "scenes": [
+    {
+      "text": "Consistency beats motivation. Keep showing up, even on the days you don't feel like it.",
+      "searchTerms": ["motivation", "focus", "success"]
+    },
+    {
+      "text": "Small daily actions lead to massive results. Stay patient and keep going.",
+      "searchTerms": ["discipline", "growth", "achievement"]
+    }
+  ],
+  "config": {
+    "paddingBack": 1500,
+    "music": "chill",
+    "captionPosition": "bottom",
+    "musicVolume": "medium",
+    "voice": "af_heart"
+  }
+}

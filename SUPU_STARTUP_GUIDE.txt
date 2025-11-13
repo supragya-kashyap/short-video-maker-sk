@@ -1,0 +1,44 @@
+# SUPU PROJECT - DAILY STARTUP COMMANDS
+
+1️⃣ OPEN UBUNTU TERMINAL
+cd "/mnt/d/Auto Youutbe/short-video-maker-main/short-video-maker-main"
+sudo kill -9 $(sudo lsof -t -i:3123) 2>/dev/null
+PEXELS_API_KEY="eM3bcIiBAOzScSwfaiikqyqoe5t7wGGEm103UDNLbMSIKp1s2FPE4wnR" npm run start
+
+(Keep this terminal open — it runs your supu server.)
+
+------------------------------------------------------------
+
+2️⃣ OPEN A NEW UBUNTU TAB → START NGROK
+ngrok http 3123
+
+(Copy the HTTPS forwarding URL, example: https://something.ngrok-free.dev)
+
+------------------------------------------------------------
+
+3️⃣ IN N8N:
+- Open your workflow.
+- Replace the old ngrok URL with the new one in:
+  • Generate video1
+  • Check video status1
+  • Download the video1
+
+Example URL:
+https://orange-goose-80.loca.lt/api/short-video/...
+
+(Save workflow.)
+
+------------------------------------------------------------
+
+4️⃣ RUN WORKFLOW (ORDER):
+Get top weekly posts1
+Map fields1
+Aggregate1
+Generate video1
+(Check status until it’s 'ready')
+Download the video1
+(Then YouTube upload)
+
+------------------------------------------------------------
+
+✅ Done — your full supu setup will be live and working!

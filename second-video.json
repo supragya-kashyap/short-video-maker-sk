@@ -1,0 +1,19 @@
+{
+  "scenes": [
+    {
+      "text": "Your mind is a magnet. If you think of problems, you attract problems. But if you think of blessings, you attract blessings.",
+      "searchTerms": ["mindset", "positivity", "inspiration"]
+    },
+    {
+      "text": "Focus on what you want to grow. Energy flows where attention goes.",
+      "searchTerms": ["focus", "growth", "motivation"]
+    }
+  ],
+  "config": {
+    "paddingBack": 1500,
+    "music": "hopeful",
+    "captionPosition": "center",
+    "musicVolume": "medium",
+    "voice": "af_nova"
+  }
+}

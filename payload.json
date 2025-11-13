@@ -1,0 +1,18 @@
+{
+  "title": "Motivation for a New Start",
+  "script": "Every morning is a new chance to chase your dreams. Start today with purpose!",
+  "voiceModel": "elevenlabs",
+  "backgroundMusic": "calm_motivation",
+  "scenes": [
+    {
+      "type": "text",
+      "text": "Every morning is a new chance to chase your dreams. Start today with purpose!",
+      "duration": 8
+    }
+  ],
+  "config": {
+    "resolution": "1080p",
+    "fps": 30,
+    "format": "mp4"
+  }
+}

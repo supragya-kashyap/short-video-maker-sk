@@ -1,0 +1,16 @@
+{
+  "template": "default",
+  "variables": {
+    "title": "Auto Run Demo",
+    "clips": [
+      { "type": "video", "path": "assets/clips/clip_from_finished.mp4", "start": 0, "end": 8 },
+      { "type": "image", "path": "assets/images/thumb.jpg", "duration": 3 }
+    ],
+    "audio": { "path": "assets/audio/voice.mp3", "start": 0 },
+    "captions": [
+      { "text": "Intro line", "start": 0, "end": 3 },
+      { "text": "Second line", "start": 3, "end": 6 }
+    ]
+  },
+  "output": { "folder": "finished-videos", "filename": "job_auto_output.mp4" }
+}
